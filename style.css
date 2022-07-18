@@ -1,27 +1,55 @@
+
+body {
+  background-image: url('images/ClayFlag.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+.row {
+    color: light-gray;
+    font-weight: bold;
+}
 .row-heading
 {
   font-size:1rem;
   font-weight:bold;
+  color: white;
 }
 .total
 {
   font-size:1.3rem;
   font-weight:bold;
+  color: white;
 }
 .total-val
 {
   font-size:1.5rem;
-  border:
+  color: white;
 }
 a:link {
     color: black;
 }
+a:visited {
+    color: #FF5733;
+}
+.fineprint a:hover {
+    color: white;
+}
+.fineprint {
+    padding-top: 50px;
+    color:white;
+}
+.fineprint:hover {
+    color: white
+}
 .center {
     margin: auto;
   width: 50%;
-  border: 3px solid green;
+
   padding: 10px;
   text-align: center;
-  border: 3px solid white;
-
+}
+p {
+    color: white;
 }
